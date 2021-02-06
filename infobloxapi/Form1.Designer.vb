@@ -30,11 +30,12 @@ Partial Class Form1
         Me.Label3 = New System.Windows.Forms.Label()
         Me.TextBox3 = New System.Windows.Forms.TextBox()
         Me.Label4 = New System.Windows.Forms.Label()
+        Me.Button2 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(423, 385)
+        Me.Button1.Location = New System.Drawing.Point(318, 392)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(150, 46)
         Me.Button1.TabIndex = 0
@@ -99,12 +100,22 @@ Partial Class Form1
         Me.Label4.TabIndex = 8
         Me.Label4.Text = "10.0.0.1-10.255.255.255 　　　1677万オブジェクトを追加"
         '
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(543, 392)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(150, 46)
+        Me.Button2.TabIndex = 9
+        Me.Button2.Text = "CSV"
+        Me.Button2.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(13.0!, 32.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoScroll = True
         Me.ClientSize = New System.Drawing.Size(984, 501)
+        Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.TextBox3)
@@ -128,4 +139,5 @@ Partial Class Form1
     Friend WithEvents Label3 As Label
     Friend WithEvents TextBox3 As TextBox
     Friend WithEvents Label4 As Label
+    Friend WithEvents Button2 As Button
 End Class
